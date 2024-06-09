@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <body>
+    <div class="container w-50 shadow-lg ">
+      <div class=" m-auto text-center mt-5 p-5">
+        <h1>Smart Login System</h1>
+        <input id="signUpName" class="form-control my-3 bg-transparent text-white" placeholder="Enter your Name"
+          type="text">
+        <input id="signUpEmail" class="form-control my-3 bg-transparent text-white" placeholder="Enter your email"
+          type="text">
+        <input id="signUpPass" class="form-control my-3 bg-transparent text-white" placeholder="Enter your password"
+          type="password">
+        <p id="worning" class="text-danger d-none"> All inputs is required</p>
+        <p id="worning2" class="text-danger d-none"> Email already exists</p>
+        <p id="sucsses" class="text-white d-none"> <span class="text-success">Sucsses</span> <br> Now you can    <a class="text-white" href="./index.html "><b>  Sign In</b></a></p>
+        <button class="btn btn-outline-info w-100 my-3" onclick="singUp()">Sign Up</button>
+        <p id="singinText" class="text-white">you have an account? <a class="text-white" href="./index.html "><b>Sign In</b></a></p>
+      </div>
+    </div>
+
+    <script src="./js/test.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+  <script src="./js/test.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

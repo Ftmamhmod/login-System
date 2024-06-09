@@ -1,0 +1,19 @@
+body {
+    background-color: #24353F;
+    font-family: "Titillium Web";
+    color: black;
+}
+h1{
+    color: #189EB3;
+}
+input {
+    background-color: transparent;
+}
+
+p a {
+    text-decoration: none;
+    transition: all 3s;
+}
+p a:hover{
+    text-decoration: underline;
+}
